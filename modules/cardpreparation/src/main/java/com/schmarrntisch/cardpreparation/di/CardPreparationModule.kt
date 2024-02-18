@@ -7,5 +7,12 @@ import org.koin.dsl.module
 val cardPreparationModule = module {
     includes(cardPreparationModuleServices)
 
-    single<CardStackProvider> { CardStackProviderImpl(cardsFileRepository = get()) }
+    single<CardStackProvider> {
+        CardStackProviderImpl(
+            cardExpansionService = get(),
+            cardSelectionService = get(),
+            cardFillService = get(),
+            cardInflationService = get()
+        )
+    }
 }

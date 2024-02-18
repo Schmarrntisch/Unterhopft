@@ -41,6 +41,7 @@ android {
     }
     buildFeatures {
         compose = true
+        buildConfig = true
     }
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.8"
@@ -67,6 +68,7 @@ dependencies {
 
     implementation(libs.koin.android)
     implementation(libs.koin.androidx.compose)
+    implementation (libs.timber)
 
     implementation(libs.compose.destinations.core)
     ksp(libs.compose.destinations.ksp)

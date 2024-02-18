@@ -1,6 +1,5 @@
 package com.schmarrntisch.appbase.model
 
-import com.schmarrntisch.appbase.config.FREQUENCY_BUSFAHRER
 import com.schmarrntisch.appbase.config.FREQUENCY_CARDPARTNER
 import com.schmarrntisch.appbase.config.FREQUENCY_CARDSPEED
 import com.schmarrntisch.appbase.config.FREQUENCY_CONDITION
@@ -31,5 +30,4 @@ enum class Category(val identifier: String, val frequency: Int) {
     VIRUS("VIRUS", FREQUENCY_VIRUS),
     TONGUETWISTER("TONGUETWISTER", FREQUENCY_TONGUETWISTER),
     SPEED("SPEED", FREQUENCY_SPEED),
-    BUSFAHRER("BUSFAHRER", FREQUENCY_BUSFAHRER)
 }

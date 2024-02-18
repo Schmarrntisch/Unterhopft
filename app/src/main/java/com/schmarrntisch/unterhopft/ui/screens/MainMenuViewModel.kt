@@ -1,9 +1,10 @@
 package com.schmarrntisch.unterhopft.ui.screens
 
+import androidx.lifecycle.ViewModel
 import com.schmarrntisch.appbase.model.PicoloCard
 
 class MainMenuViewModel(
     private val cardStackProvider: com.schmarrntisch.cardpreparation.CardStackProvider
-) {
-    fun getCardStack() : List<PicoloCard> = cardStackProvider.provideCardStack()
+) : ViewModel() {
+    fun getCardStack() : List<PicoloCard> = cardStackProvider.provideCardStack(listOf("Player1", "Player2", "Player3"))
 }
