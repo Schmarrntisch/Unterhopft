@@ -1,0 +1,66 @@
+version=4
+0|VOTING|{0}, wen findest du schöner? {1} oder {2}?|Mr./Mrs. Beauty <trinkt-verteilt> [S1-3S].
+1|VOTING|{0}, wen würdest du auf eine einsame Insel mitnehmen? {1} oder {2}?|Der Survivor <trinkt-verteilt> [S1-3S].
+2|VOTING|{0}, wer kann mehr Bier trinken? {1} oder {2}?|Beercules <trinkt-verteilt> [S1-3S].
+3|VOTING|{0}, wer ist schlauer? {1} oder {2}?|Einstein <trinkt-verteilt> [S1-3S].
+4|VOTING|{0}, wer hat den geileren Arsch? {1} oder {2}?|Bootylicious<trinkt-verteilt> [S1-3S].
+5|COUNTING|{0}: Primzahlen. Reihum zählt ihr die Primzahlen in aufsteigender Reihenfolge auf. Du fängst mit 1 an. \nWer den ersten Fehler macht, trinkt [S2-4S].
+6|COUNTING|{0}: Lies diese Karte einmal laut vor, danach wird nicht mehr gesprochen. In alphabetischer Reihenfolge eurer Vornamen klatscht ihr einmal in eure Hände. Bei gleichen Vornamen nehmt ihr die Nachnamen dazu. \nWer den ersten Fehler macht, trinkt [S2-4S].
+7|COUNTING|{0}: du beginnst. Sagt reihum das Alphabet rückwärts auf. Aber zuerst die Vokale und dann die Konsonanten. \nDer erste, der einen Fehler macht, trinkt [S2-4S].
+8|COUNTING|{0}: Du nennst als Erstes ein zusammengesetztes Wort. Reihum bildet ihr jeweils ein neues zusammengesetztes Wort aus dem zweiten Teil des vorherigen Wortes. \nDer Erste, der einen Fehler macht, trinkt [S2-4S].
+9|COUNTING|{0}, bestimme eine Kategorie z.B. Automarken. Jeder nennt reihum etwas aus dieser Kategorie. \nWenn jemand nichts mehr weiß oder doppelt sagt, muss er/sie [S2-4S] trinken.
+10|CONDITION|Jeder, der einen Zopf trägt, trinkt [S1-3S].
+11|CONDITION|Alle, die eine Brille tragen, trinken [S1-3S].
+12|CONDITION|Alle SV Darmstadt 98 Fans, trinken [S1-3S].
+13|CONDITION|Jeder, der schon mal im Leben alle Sons of Anarchy Staffeln gesehen hat, trinkt [S1-3S].
+14|CONDITION|Der Kleinste in der Runde, <trinkt-verteilt> [S2-4S].
+15|SPEED|Wer zuerst sein Glas ext, darf [S4-6S] verteilen.
+16|SPEED|Der Boden ist Lava! Wer zuletzt noch den Boden berührt, trinkt [S3-5S].
+17|SPEED|Wer zuletzt die Decke berührt, trinkt [S3-5S].
+18|SPEED|Wer zuerst 5 Liegestütze macht, verteilt [S3-5S].
+19|SPEED|Wer als letztes einen Schuh in der Hand hält, trinkt [S3-5S].
+20|GROUPACTION|Alle trinken [S3-5S]. \nWer nicht trinken will, gibt sich stattdessen genauso viele Backpfeifen.
+21|GROUPACTION|{0}, wähle eine Zahl zwischen 1 und 6. \nAlle trinken die gewählte Zahl als Schlücke.
+22|GROUPACTION|{0}, stelle deinen Handy Timer auf 1 Minute und lege das Handy verdeckt auf den Tisch. Alle Spieler schätzen still für sich, wann die Minute vorbei ist und heben dann die Hand. \n\nDer Letzte, der vor dem Alarm die Hand hebt, gewinnt. Alle anderen trinken [S2-4S].
+23|GROUPACTION|Klopfspiel. Alle legen ihre Hände auf den Tisch und verschränken diese dabei mit denen der Nachbarn. Ihr bestimmt den Startpunkt und die Spielrichtung. Dann geht es händeweise reihum. \n\n1x Klopfen = in aktueller Spielrichtung weiter, 2x Klopfen = Richtungswechsel. \n\nDer Verlierer trinkt [S3-5S].
+24|GROUPACTION|Unter dem Tisch zeigt jeder eine Zahl von 1 bis 10 mit den Fingern. Auf euer Zeichen zeigen alle gleichzeitig ihre Zahl. \nDie niedrigste nur einmal gezeigte Zahl gewinnt. Der Gewinner verteilt [S3-5S].
+25|GROUPVIRUS|Ihr dürft ab jetzt eure Sätze nur noch mit genau 3 Wörtern bilden. Ihr dürft erst wieder reden, wenn jemand anderes einen Satz gesagt hat. \nBei jedem Fehler trinkt ihr 1 Schluck. \n\nFür das Vorlesen von Aufgaben zählt diese Regel nicht.|Ihr Neanderthaler dürft nun wieder vollständige Sätze bilden.
+26|GROUPVIRUS|Alle Namen sind verboten. Für jeden Bruch dieser Regel, trinkt derjenige 1 Schluck.|Ihr dürft eure Namen wieder verwenden.
+27|GROUPVIRUS|Stellt euch alle auf ein Bein. Sobald ihr mit dem anderen Bein den Boden berührt, trinkt ihr 1 Schluck.|Ihr dürft nun euer zweites Bein wieder verwenden und euch wieder normal hinstellen/hinsetzen.
+28|GROUPVIRUS|Ihr sprecht von euch selbst nur noch in der dritten Person. Bei jedem Fehler trinkt ihr 1 Schluck.|Ihr dürft nun wieder in der ersten Person sprechen.
+29|GROUPVIRUS|Wie Meister Joda ihr nun sprechen müsst. Bei jedem Fehler 1 Schluck ihr trinken müsst.|Der Meister Joda Fluch ist aufgehoben, ihr dürft nun wieder richtige Sätze bilden.
+30|CARDSPEED|{0}, lies diese Karte laut vor. \nEinmal im Laufe des Spiels reibst du dir deinen Bauch. Alle Spieler müssen dann mitmachen und dabei "Mmmhhh" sagen. \nDer Letzte trinkt [S3-5S].
+31|CARDSPEED|{0}, lies diese Karte laut vor. \nThomas, die Lokomotive. Sobald du im Laufe des Spiels laut "Tuut tuuut!" rufst, müssen alle anderen Lokomotivgeräusche und -bewegungen machen. \nDer Letzte muss [S3-5S] trinken.
+32|CARDSPEED|{0}, rufe einmal im Laufe des Spiels laut "Backbord!" oder "Steuerbord!". Alle müssen sich schnell in die richtige Richtung lehnen. \nDer letzte muss [S3-5S] trinken. \n\nBackbord = links, Steuerbord = rechts.
+33|CARDSPEED|{0}, lies diese Karte laut vor. \nVikingerboot. Stelle einmal im Laufe des Spiels deine beiden Zeigefinger als Hörner an deinem Kopf auf. Alle Mitspieler müssen dann schnell anfangen mit den Armen zu rudern. \nDer Letzte, der mitmacht, muss [S3-5S] trinken.
+34|CARDSPEED|{0}, du bekommst die Penis-Karte. Irgendwann im Laufe des Spiels, darfst du "Penis" schreien. \nDer Letzte, der dann auch "Penis" schreit, muss [S3-5S] trinken.
+35|CARDPARTNER|{0}, du bekommst die Fick-Dich-Karte. Irgendwann im Laufe des Spiels, darfst du jemandem den Mittelfinger zeigen und seine zu trinkenden Schlücke verdoppeln. Den Zeitpunkt wählst du aus.
+36|CARDPARTNER|{0}, du bekommst die Verteiler-Karte. Verteile einmalig, zu einem von dir bestimmten Zeitpunkt , [S3-5S].
+37|PARTNERACTION|{0}, berühre jemanden an seinem Fuss. Danach trinkt jeder von euch beiden [S2-4S].
+38|PARTNERACTION|Staring Contest. \n{0}, du suchst dir einen Gegner und ihr macht einen Staring Contest. Der erste, der blinzelt, verliert und muss [S3-5S] trinken.
+39|PARTNERACTION|Lach-Duell. \n{0}, du suchst dir einen Gegner und ihr macht ein Lach-Duell. Setzt euch gegenüber und bringt euch gegenseitig zum Lachen. Der erste, der lacht, verliert und muss [S3-5S] trinken.
+40|PARTNERACTION|Schnick-Schnack-Schnuck. \n{0}, du suchst dir einen Gegner und ihr spielt eine Partie Schnick-Schnack-Schnuck (nur Papier, Stein und Schere erlaubt). Wer als erstes 3 mal gewinnt, gewinnt das Spiel und der Verlierer trinkt [S3-5S].
+41|PARTNERACTION|{0}, berühre jemanden an seinem Arsch. Danach trinkt jeder von euch beiden [S2-4S].
+42|RULE|{0}, denke dir eine Regel und eine Strafe für den Bruch dieser Regel aus. Diese gilt für Alle.
+43|RULE|Ich-Verbot. Das Wort "Ich" darf nicht mehr gesagt werden. 1 Fehler = 1 Schluck.
+44|RULE|Du-Verbot. Das Wort "Du" darf nicht mehr gesagt werden. 1 Fehler = 1 Schluck.
+45|RULE|{0}, du darfst eine aktive Regel entfernen. Falls es keine aktive Regel gibt, trinkst du [S4-6S]. \nDu darfst eine neue Regel hinzufügen, wenn du [S3-5S] trinkst.
+46|RULE|Jeder nimmt ab jetzt den Namen seines rechten Nachbarn an. Bei jedem Fehler (falschen Namen sagen oder auf falschen Namen reagieren) muss 1 Schluck getrunken werden.
+47|PLAYERACTION|{0}, schließe deine Augen, streck deinen rechten Arm aus und versuche mit dem Mittelfinger, deine Nasenspitze zu berühren. Schaffst du es, verteile [S3-5S]. Schaffst du es nicht, trinke sie selber.
+48|PLAYERACTION|{0}, verteile [S1-5S].
+49|PLAYERACTION|{0}, trinke [S1-5S].
+50|PLAYERACTION|{0}, wenn du willst, kannst du dein Glas exen und dafür [S2-6S] verteilen.
+51|PLAYERACTION|{0}, du rufst jemanden deiner Wahl an mit eingeschaltetem Lautsprecher. Keine Begrüßung, keine Erklärung. Du fängst an ein Lied deiner Wahl zu singen. Singt dein Telefonjoker innerhalb von 10 Sekunden mit, gewinnst du und darfst [S4-6S] verteilen. Wenn nicht, trinkst du selbst [S4-6S].
+52|RULE|{0}, steh auf! Du darfst dich erst wieder hinsetzen, wenn dein Getränk leer ist.
+53|TABU|{0}, beschreibe einen Film oder eine Serie, ohne dabei den Titel, Rollen oder Schauspieler zu nennen. Du hast 1 Minute Zeit. \nDerjenige, der deinen Film oder deine Serie errät, darf [S2-4S] verteilen. Schaffst du es nicht, trinkst du selbst diese Anzahl an Schlücken.
+54|TABU|{0}, denk an ein Land. Reihum werden dir Ja-oder-Nein-Fragen gestellt. Bei "Nein" muss der Fragensteller 1 Schluck trinken. Wenn jemand dein Land errät, darf er/sie [S3-5S] verteilen.
+55|VIRUS|{0}, du bist ein Pirat. Halte ein Auge zu und beginne jeden Satz mit "Arrrgh!". \nBei jedem Fehler trinke 1 Schluck.|{0}, du bist jetzt kein Pirat mehr.
+56|VIRUS|Anglizismus. \n{0}, benutze in jedem Satz mindestens ein englisches Wort. \nFür jeden Fehler trinke 1 Schluck.|{0}, du darfst jetzt wieder normal deutsch sprechen.
+57|VIRUS|{0}, du bist immun und musst nicht trinken.|{0}, du darfst jetzt wieder trinken und mitspielen.
+58|VIRUS|{0}, du darfst nicht mehr auf die Toilette, oder musst [S4-6S] trinken als Strafe.|{0}, du darfst wieder kostenfrei auf die Toilette.
+59|VIRUS|{0}, wähle einen Trinkpartner aus. Jedes Mal, wenn dein Trinkpartner trinken muss, trinkst du auch. Und jedes Mal, wenn du trinken musst, muss auch dein Trinkpartner trinken.|{0}, dein Trinkpartner hat sich von dir getrennt. Du trinkst ab jetzt wieder solo.
+60|TONGUETWISTER|{0}, sage den Zungenbrecher fehlerfrei auf. Schaffst du es, verteile [S2-4S]. Schaffst du es nicht, trinke sie selbst. \n\n"Klitzekleine Kinder können keinen Kirschkern knacken."
+61|TONGUETWISTER|{0}, sage den Zungenbrecher fehlerfrei auf. Schaffst du es, verteile [S2-4S]. Schaffst du es nicht, trinke sie selbst. \n\n"Kreischende Krähen knabbern im kalten Winter Kerne und Körner."
+62|TONGUETWISTER|{0}, sage den Zungenbrecher fehlerfrei auf. Schaffst du es, verteile [S2-4S]. Schaffst du es nicht, trinke sie selbst. \n\n"Kontstantinopolitanischer Dudelsackpfeifersgeselle."
+63|TONGUETWISTER|{0}, sage den Zungenbrecher fehlerfrei auf. Schaffst du es, verteile [S2-4S]. Schaffst du es nicht, trinke sie selbst. \n\n"Lang schwang der Klang den Hang entlang."
+64|TONGUETWISTER|{0}, sage den Zungenbrecher fehlerfrei auf. Schaffst du es, verteile [S2-4S]. Schaffst du es nicht, trinke sie selbst. \n\n"Im dichten Fichtendickicht picken flinke Finken tüchtig."

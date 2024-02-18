@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Unterhopft"
 include(":app")
- 
+include(":modules:cardpreparation")
+include(":modules:appbase")
