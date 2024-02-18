@@ -23,9 +23,7 @@ internal class CardsExpansionServiceImpl(
     override fun provideCards(): Map<Category, List<UnfilledPicoloCard>> {
         val cards = mutableListOf<UnfilledPicoloCard>()
         fileContentByLines.subList(1, fileContentByLines.size).forEach {
-            val curCard = lineToCard(it)
-
-            cards.add(curCard)
+            cards.add(lineToCard(it))
         }
         val groupedCards = cards.groupBy { it.category }
         if (groupedCards.keys.size > Category.entries.size) {

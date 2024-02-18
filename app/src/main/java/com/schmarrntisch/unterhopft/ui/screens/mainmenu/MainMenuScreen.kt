@@ -1,4 +1,4 @@
-package com.schmarrntisch.unterhopft.ui.screens
+package com.schmarrntisch.unterhopft.ui.screens.mainmenu
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -14,18 +14,20 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import com.ramcosta.composedestinations.annotation.Destination
+import com.ramcosta.composedestinations.annotation.RootNavGraph
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import org.koin.androidx.compose.koinViewModel
 
 
-@Destination(start = true)
+@RootNavGraph(start = true)
+@Destination
 @Composable
 fun MainMenuScreen(
     modifier: Modifier = Modifier,
     navigator: DestinationsNavigator
 ) {
     Column(
-        modifier = Modifier.fillMaxSize(),
+        modifier = modifier.fillMaxSize(),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {

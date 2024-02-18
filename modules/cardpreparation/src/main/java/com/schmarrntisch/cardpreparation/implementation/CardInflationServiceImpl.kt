@@ -54,7 +54,7 @@ internal class CardInflationServiceImpl : CardInflationService {
         val inflatedCards = mutableListOf<PicoloCard>()
         uninflatedCard.texts.forEach { currentText ->
             inflatedCards.add(
-                PicoloCard(text = currentText)
+                PicoloCard(text = currentText, id = uninflatedCard.id)
             )
         }
 

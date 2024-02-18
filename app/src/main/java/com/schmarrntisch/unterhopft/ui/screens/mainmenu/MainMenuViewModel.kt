@@ -1,4 +1,4 @@
-package com.schmarrntisch.unterhopft.ui.screens
+package com.schmarrntisch.unterhopft.ui.screens.mainmenu
 
 import androidx.lifecycle.ViewModel
 import com.schmarrntisch.appbase.model.PicoloCard

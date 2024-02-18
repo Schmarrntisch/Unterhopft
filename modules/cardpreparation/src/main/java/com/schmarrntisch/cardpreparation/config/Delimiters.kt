@@ -1,6 +1,6 @@
 package com.schmarrntisch.cardpreparation.config
 
-const val LINE_DELIMITER = "\r\n"
+const val LINE_DELIMITER = "\n"
 const val COLUMN_DELIMITER = '|'
 
 const val MULTIPLE_CHOICE_START_DELIMITER = "<"
