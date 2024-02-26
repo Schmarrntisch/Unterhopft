@@ -1,6 +1,6 @@
 package com.schmarrntisch.cardpreparation.implementation
 
-import com.schmarrntisch.appbase.model.PicoloCard
+import com.schmarrntisch.appbase.model.UnterhopftCard
 import com.schmarrntisch.cardpreparation.CardExpansionService
 import com.schmarrntisch.cardpreparation.CardFillService
 import com.schmarrntisch.cardpreparation.CardInflationService
@@ -13,7 +13,7 @@ internal class CardStackProviderImpl(
     private val cardFillService: CardFillService,
     private val cardInflationService: CardInflationService
 ) : CardStackProvider {
-    override fun provideCardStack(playerNames: List<String>): List<PicoloCard> {
+    override fun provideCardStack(playerNames: List<String>): List<UnterhopftCard> {
         val expandedCardsByCategory = cardExpansionService.provideCards()
         val selectedCards =
             cardSelectionService.selectCardsForGame(expandedCardsByCategory, playerNames.size)

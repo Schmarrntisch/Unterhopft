@@ -10,17 +10,17 @@ import com.schmarrntisch.cardpreparation.config.NUMBER_RANGE_START_DELIMITER
 import com.schmarrntisch.cardpreparation.config.NUMBER_SIP_END_DELIMITER
 import com.schmarrntisch.cardpreparation.config.NUMBER_SIP_MID_DELIMITER
 import com.schmarrntisch.cardpreparation.config.NUMBER_SIP_START_DELIMITER
-import com.schmarrntisch.cardpreparation.model.UnfilledPicoloCard
-import com.schmarrntisch.cardpreparation.model.UninflatedPicoloCard
+import com.schmarrntisch.cardpreparation.model.UnfilledUnterhopftCard
+import com.schmarrntisch.cardpreparation.model.UninflatedUnterhopftCard
 import timber.log.Timber
 import java.security.InvalidParameterException
 
 internal class CardFillServiceImpl : CardFillService {
     override fun fillCards(
-        unfilledCards: List<UnfilledPicoloCard>,
+        unfilledCards: List<UnfilledUnterhopftCard>,
         players: List<String>
-    ): List<UninflatedPicoloCard> {
-        val cards = mutableListOf<UninflatedPicoloCard>()
+    ): List<UninflatedUnterhopftCard> {
+        val cards = mutableListOf<UninflatedUnterhopftCard>()
         unfilledCards.forEach { unfilledCard ->
             if (players.size < unfilledCard.numberPlayers) {
                 Timber.e("Received card with ${unfilledCard.numberPlayers} required while only ${players.size} are available. This should not happen!")
@@ -28,7 +28,7 @@ internal class CardFillServiceImpl : CardFillService {
             }
             val texts = fillTexts(unfilledCard, players)
             cards.add(
-                UninflatedPicoloCard(
+                UninflatedUnterhopftCard(
                     id = unfilledCard.cardId,
                     category = unfilledCard.category,
                     texts = texts,
@@ -57,7 +57,7 @@ internal class CardFillServiceImpl : CardFillService {
     }
 
     private fun fillTexts(
-        unfilledCard: UnfilledPicoloCard,
+        unfilledCard: UnfilledUnterhopftCard,
         players: List<String>
     ): List<String> {
         return unfilledCard.texts

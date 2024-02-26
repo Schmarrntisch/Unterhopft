@@ -4,14 +4,14 @@ import com.schmarrntisch.appbase.config.MIN_DISTANCE_VIRUS_CARDS
 import com.schmarrntisch.appbase.config.VIRUS_CATEGORIES
 import com.schmarrntisch.appbase.model.Category
 import com.schmarrntisch.cardpreparation.CardSelectionService
-import com.schmarrntisch.cardpreparation.model.UnfilledPicoloCard
+import com.schmarrntisch.cardpreparation.model.UnfilledUnterhopftCard
 import timber.log.Timber
 
 internal class CardSelectionServiceImpl : CardSelectionService {
     override fun selectCardsForGame(
-        cardsByCategory: Map<Category, List<UnfilledPicoloCard>>,
+        cardsByCategory: Map<Category, List<UnfilledUnterhopftCard>>,
         numberOfPlayers: Int
-    ): List<UnfilledPicoloCard> {
+    ): List<UnfilledUnterhopftCard> {
         return CardSelectionServiceImplLogic(numberOfPlayers).selectCardsForGame(cardsByCategory)
     }
 }
@@ -20,14 +20,14 @@ private class CardSelectionServiceImplLogic(
     private val numberPlayers: Int
 ) {
     fun selectCardsForGame(
-        cardsByCategory: Map<Category, List<UnfilledPicoloCard>>
-    ): List<UnfilledPicoloCard> {
+        cardsByCategory: Map<Category, List<UnfilledUnterhopftCard>>
+    ): List<UnfilledUnterhopftCard> {
         val selectedCardsByCategory = selectCardsByCategory(cardsByCategory)
         return finalizeCardStack(selectedCardsByCategory)
     }
 
-    private fun selectCardsByCategory(cardsByCategory: Map<Category, List<UnfilledPicoloCard>>): HashMap<Category, List<UnfilledPicoloCard>> {
-        val selectedCardsByCategory = HashMap<Category, List<UnfilledPicoloCard>>()
+    private fun selectCardsByCategory(cardsByCategory: Map<Category, List<UnfilledUnterhopftCard>>): HashMap<Category, List<UnfilledUnterhopftCard>> {
+        val selectedCardsByCategory = HashMap<Category, List<UnfilledUnterhopftCard>>()
         Category.entries.forEach { category ->
             selectedCardsByCategory[category] =
                 selectCardsOfCategory(category, cardsByCategory[category] ?: listOf())
@@ -37,8 +37,8 @@ private class CardSelectionServiceImplLogic(
 
     private fun selectCardsOfCategory(
         category: Category,
-        unfilledCardsOfCategory: List<UnfilledPicoloCard>
-    ): List<UnfilledPicoloCard> {
+        unfilledCardsOfCategory: List<UnfilledUnterhopftCard>
+    ): List<UnfilledUnterhopftCard> {
         val cardsFilteredByPlayers =
             unfilledCardsOfCategory.filter { it.numberPlayers <= numberPlayers }
         if (cardsFilteredByPlayers.size < category.frequency) {
@@ -53,8 +53,8 @@ private class CardSelectionServiceImplLogic(
             .subList(0, Integer.min(category.frequency, cardsFilteredByPlayers.size))
     }
 
-    private fun finalizeCardStack(cardsByCategory: Map<Category, List<UnfilledPicoloCard>>): List<UnfilledPicoloCard> {
-        val cardStack = mutableListOf<UnfilledPicoloCard>()
+    private fun finalizeCardStack(cardsByCategory: Map<Category, List<UnfilledUnterhopftCard>>): List<UnfilledUnterhopftCard> {
+        val cardStack = mutableListOf<UnfilledUnterhopftCard>()
         Category.entries.forEach { category ->
             when (category) {
                 in VIRUS_CATEGORIES -> {
@@ -91,9 +91,9 @@ private class CardSelectionServiceImplLogic(
         return shuffledCardStack
     }
 
-    private fun shuffleWithoutNeighboringCategories(input: List<UnfilledPicoloCard>): MutableList<UnfilledPicoloCard> {
+    private fun shuffleWithoutNeighboringCategories(input: List<UnfilledUnterhopftCard>): MutableList<UnfilledUnterhopftCard> {
         val mutableInput = input.shuffled().toMutableList()
-        val shuffledList = mutableListOf<UnfilledPicoloCard>()
+        val shuffledList = mutableListOf<UnfilledUnterhopftCard>()
 
         while (mutableInput.isNotEmpty()) {
             var changed = false
@@ -113,7 +113,7 @@ private class CardSelectionServiceImplLogic(
         return shuffledList
     }
 
-    private fun MutableList<UnfilledPicoloCard>.insertCard(card: UnfilledPicoloCard): Boolean {
+    private fun MutableList<UnfilledUnterhopftCard>.insertCard(card: UnfilledUnterhopftCard): Boolean {
         if (isEmpty() || get(0).category != card.category) {
             add(0, card)
             return true
@@ -130,7 +130,7 @@ private class CardSelectionServiceImplLogic(
         return false
     }
 
-    private fun MutableList<UnfilledPicoloCard>.addVirusCard(virusCard: UnfilledPicoloCard) {
+    private fun MutableList<UnfilledUnterhopftCard>.addVirusCard(virusCard: UnfilledUnterhopftCard) {
         val startIndex = getVirusStartIndex(size)
         add(startIndex, virusCard)
     }

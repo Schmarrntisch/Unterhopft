@@ -1,8 +1,8 @@
 package com.schmarrntisch.cardpreparation
 
 import com.schmarrntisch.appbase.model.Category
-import com.schmarrntisch.cardpreparation.model.UnfilledPicoloCard
+import com.schmarrntisch.cardpreparation.model.UnfilledUnterhopftCard
 
 internal interface CardExpansionService {
-    fun provideCards(): Map<Category, List<UnfilledPicoloCard>>
+    fun provideCards(): Map<Category, List<UnfilledUnterhopftCard>>
 }

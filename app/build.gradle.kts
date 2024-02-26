@@ -65,6 +65,7 @@ dependencies {
     implementation(libs.ui.graphics)
     implementation(libs.ui.tooling.preview)
     implementation(libs.material3)
+    implementation(libs.lifecycle.runtime.compose)
 
     implementation(libs.koin.android)
     implementation(libs.koin.androidx.compose)

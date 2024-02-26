@@ -4,7 +4,7 @@ import com.schmarrntisch.appbase.model.Category
 import com.schmarrntisch.cardpreparation.CardExpansionService
 import com.schmarrntisch.cardpreparation.config.COLUMN_DELIMITER
 import com.schmarrntisch.cardpreparation.config.LINE_DELIMITER
-import com.schmarrntisch.cardpreparation.model.UnfilledPicoloCard
+import com.schmarrntisch.cardpreparation.model.UnfilledUnterhopftCard
 
 internal class CardsExpansionServiceImpl(
     private val cardsFileRepository: com.schmarrntisch.appbase.CardsFileRepository
@@ -20,8 +20,8 @@ internal class CardsExpansionServiceImpl(
         }
     }
 
-    override fun provideCards(): Map<Category, List<UnfilledPicoloCard>> {
-        val cards = mutableListOf<UnfilledPicoloCard>()
+    override fun provideCards(): Map<Category, List<UnfilledUnterhopftCard>> {
+        val cards = mutableListOf<UnfilledUnterhopftCard>()
         fileContentByLines.subList(1, fileContentByLines.size).forEach {
             cards.add(lineToCard(it))
         }
@@ -32,10 +32,10 @@ internal class CardsExpansionServiceImpl(
         return groupedCards
     }
 
-    private fun lineToCard(line: String): UnfilledPicoloCard {
+    private fun lineToCard(line: String): UnfilledUnterhopftCard {
         val columns = line.split(COLUMN_DELIMITER)
         val texts = columns.subList(2, columns.size)
-        return UnfilledPicoloCard(
+        return UnfilledUnterhopftCard(
             cardId = columns[0].toInt(),
             category = getCategoryForIdentifier(columns[1]),
             texts = texts,

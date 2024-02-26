@@ -3,14 +3,14 @@ package com.schmarrntisch.cardpreparation.implementation
 import com.schmarrntisch.appbase.config.MIN_DISTANCE_VIRUS_CARDS
 import com.schmarrntisch.appbase.config.VIRUS_CATEGORIES
 import com.schmarrntisch.appbase.model.Category
-import com.schmarrntisch.appbase.model.PicoloCard
+import com.schmarrntisch.appbase.model.UnterhopftCard
 import com.schmarrntisch.cardpreparation.CardInflationService
-import com.schmarrntisch.cardpreparation.model.UninflatedPicoloCard
+import com.schmarrntisch.cardpreparation.model.UninflatedUnterhopftCard
 
 internal class CardInflationServiceImpl : CardInflationService {
-    override fun inflateCards(uninflatedCardStack: List<UninflatedPicoloCard>): List<PicoloCard> {
+    override fun inflateCards(uninflatedCardStack: List<UninflatedUnterhopftCard>): List<UnterhopftCard> {
         val virusEndCards = mutableListOf<VirusEndCard>()
-        val inflatedCardStack = mutableListOf<PicoloCard>()
+        val inflatedCardStack = mutableListOf<UnterhopftCard>()
 
         for (i in uninflatedCardStack.indices) {
             inflatedCardStack.insertVirusEndCards(virusEndCards, i)
@@ -35,7 +35,7 @@ internal class CardInflationServiceImpl : CardInflationService {
         return inflatedCardStack
     }
 
-    private fun MutableList<PicoloCard>.insertVirusEndCards(
+    private fun MutableList<UnterhopftCard>.insertVirusEndCards(
         virusEndCards: MutableList<VirusEndCard>,
         index: Int
     ) {
@@ -49,12 +49,12 @@ internal class CardInflationServiceImpl : CardInflationService {
     }
 
     private fun inflateCard(
-        uninflatedCard: UninflatedPicoloCard
-    ): List<PicoloCard> {
-        val inflatedCards = mutableListOf<PicoloCard>()
+        uninflatedCard: UninflatedUnterhopftCard
+    ): List<UnterhopftCard> {
+        val inflatedCards = mutableListOf<UnterhopftCard>()
         uninflatedCard.texts.forEach { currentText ->
             inflatedCards.add(
-                PicoloCard(text = currentText, id = uninflatedCard.id)
+                UnterhopftCard(text = currentText, id = uninflatedCard.id)
             )
         }
 
@@ -75,7 +75,7 @@ internal class CardInflationServiceImpl : CardInflationService {
     }
 
     private data class VirusEndCard(
-        val card: PicoloCard,
+        val card: UnterhopftCard,
         val index: Int
     )
 }
