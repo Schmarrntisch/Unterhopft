@@ -48,14 +48,30 @@ function formatSips(n: number): string {
   return n === 1 ? "1 Schluck" : `${n} Schlücke`;
 }
 
-/** Shuffle players and return a mapping for {{player1}}, {{player2}}, {{player3}} */
-function assignPlayers(players: string[]): Record<string, string> {
-  const shuffled = shuffle(players);
-  const mapping: Record<string, string> = {};
-  for (let i = 0; i < Math.min(shuffled.length, 3); i++) {
-    mapping[`{{player${i + 1}}}`] = shuffled[i];
-  }
-  return mapping;
+/** Create a stateful player assigner that avoids repeating player1 too often */
+function createPlayerAssigner(players: string[]) {
+  const lastAsPlayer1 = new Map<string, number>();
+  const cooldown = Math.max(1, Math.floor(players.length / 2));
+
+  return function assignPlayers(cardIndex: number): Record<string, string> {
+    // Filter to players not recently used as player1
+    const eligible = players.filter((p) => {
+      const last = lastAsPlayer1.get(p);
+      return last === undefined || cardIndex - last >= cooldown;
+    });
+    const pool = eligible.length > 0 ? eligible : players;
+
+    // Pick player1 randomly from eligible pool
+    const player1 = pool[Math.floor(Math.random() * pool.length)];
+    lastAsPlayer1.set(player1, cardIndex);
+
+    // player2 and player3 from remaining players (shuffled)
+    const remaining = shuffle(players.filter((p) => p !== player1));
+    const mapping: Record<string, string> = { "{{player1}}": player1 };
+    if (remaining.length >= 1) mapping["{{player2}}"] = remaining[0];
+    if (remaining.length >= 2) mapping["{{player3}}"] = remaining[1];
+    return mapping;
+  };
 }
 
 function replacePlaceholders(
@@ -115,17 +131,52 @@ export function buildDeck(
 
   if (pool.length === 0) return { deck: [], lastColorIndex: 2 };
 
-  // Shuffle the pool
-  const limited = shuffle(pool);
+  // Separate virus cards from normal cards
+  const virusItems = pool.filter(({ card }) => isVirus(card));
+  const normalItems = pool.filter(({ card }) => !isVirus(card));
+
+  // Shuffle each group independently
+  const shuffledNormal = shuffle(normalItems);
+  const shuffledViruses = shuffle(virusItems);
+
+  // Place virus start cards in the 30-70% zone of the deck, evenly spaced
+  const zoneStart = Math.floor(shuffledNormal.length * 0.30);
+  const zoneEnd = Math.floor(shuffledNormal.length * 0.70);
+  const zoneLength = zoneEnd - zoneStart;
+
+  if (shuffledViruses.length > 0 && zoneLength > 0) {
+    const spacing = zoneLength / (shuffledViruses.length + 1);
+    const positions: number[] = [];
+    for (let v = 0; v < shuffledViruses.length; v++) {
+      const basePos = zoneStart + Math.round(spacing * (v + 1));
+      const jitter = Math.max(1, Math.floor(spacing * 0.2));
+      const offset = randomInt(-jitter, jitter);
+      positions.push(Math.max(zoneStart, Math.min(zoneEnd, basePos + offset)));
+    }
+    // Insert from back to front so earlier indices stay stable
+    positions.sort((a, b) => b - a);
+    for (let v = 0; v < positions.length; v++) {
+      shuffledNormal.splice(positions[v], 0, shuffledViruses[v]);
+    }
+  } else {
+    // Fallback: insert viruses near the middle
+    const mid = Math.floor(shuffledNormal.length / 2);
+    for (const v of shuffledViruses) {
+      shuffledNormal.splice(mid, 0, v);
+    }
+  }
+
+  const limited = shuffledNormal;
 
   // Convert to GameCards
   const deck: GameCard[] = [];
   let lastColorIdx = 2;
   const pendingVirusEnds: { card: GameCard; insertAfter: number }[] = [];
+  const assignPlayersForCard = createPlayerAssigner(players);
 
   for (let i = 0; i < limited.length; i++) {
     const { card } = limited[i];
-    const playerMapping = assignPlayers(players);
+    const playerMapping = assignPlayersForCard(i);
     const { color, newIdx } = getColorForCategory(card.category, lastColorIdx);
     lastColorIdx = newIdx;
 
