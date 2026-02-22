@@ -1,4 +1,4 @@
-/edit Build a mobile-first drinking game app "Schmarrntisch" using Next.js (App Router), Tailwind CSS, and Framer Motion. 
+/edit Build a mobile-first drinking game app "Unterhopft" using Next.js (App Router), Tailwind CSS, and Framer Motion. 
 
 1. DATA INGESTION:
    - On startup, read all JSON files from the `/texts` directory. Each file represents a category.

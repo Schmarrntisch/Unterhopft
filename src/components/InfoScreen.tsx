@@ -45,7 +45,7 @@ export default function InfoScreen({ onBack }: InfoScreenProps) {
           <p className="font-body text-[var(--color-text-muted)] dark:text-[var(--color-text-muted-dark)] leading-relaxed">
             Der Quellcode ist auf{" "}
             <a
-              href="https://github.com/schmarrntisch/unterhopft"
+              href="https://github.com/sebmueller91/Unterhopft"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[var(--color-c3)] underline font-semibold"

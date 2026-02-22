@@ -1,5 +1,5 @@
 {
-  "name": "schmarrntisch",
+  "name": "unterhopft",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Schmarrntisch/Schmarrntisch.git"
+    "url": "git+https://github.com/sebmueller91/Unterhopft.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Schmarrntisch/Schmarrntisch/issues"
+    "url": "https://github.com/sebmueller91/Unterhopft/issues"
   },
-  "homepage": "https://github.com/Schmarrntisch/Schmarrntisch#readme",
+  "homepage": "https://github.com/sebmueller91/Unterhopft#readme",
   "dependencies": {
     "framer-motion": "^12.34.3",
     "next": "^16.1.6",

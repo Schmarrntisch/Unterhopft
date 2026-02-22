@@ -1,4 +1,4 @@
-# Schmarrntisch
+# Unterhopft
 
 A mobile-first drinking game web app built with Next.js. Players take turns drawing cards with various challenges, rules, and mini-games — all in German.
 
@@ -43,8 +43,8 @@ npm start
 ### Docker
 
 ```bash
-docker build -t schmarrntisch .
-docker run -p 3000:3000 schmarrntisch
+docker build -t unterhopft .
+docker run -p 3000:3000 unterhopft
 ```
 
 ## Game Categories
