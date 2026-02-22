@@ -13,11 +13,11 @@
   },
   {
     "category": "game",
-    "text": "{{player1}}: Primzahlen aufsteigend nennen. Wer den ersten Fehler macht, trinkt {{sips}}."
+    "text": "Primzahlen aufsteigend nennen. {{player1}} fängt an. Wer den ersten Fehler macht, trinkt {{sips}}."
   },
   {
     "category": "game",
-    "text": "{{player1}}: In alphabetischer Reihenfolge der Vornamen klatscht ihr einmal in die Hände. Wer den Fehler macht, trinkt {{sips}}."
+    "text": " In alphabetischer Reihenfolge der Vornamen klatscht ihr einmal in die Hände, {{player1}} fängt an. Wer den Fehler macht, trinkt {{sips}}."
   },
   {
     "category": "game",
@@ -41,7 +41,7 @@
   },
   {
     "category": "game",
-    "text": "{{player1}}: Augen zu und versuche mit dem Mittelfinger deine Nasenspitze zu berühren. Erfolg: verteile {{sips}}, sonst trinke selbst."
+    "text": "{{player1}}, Augen zu und versuche mit dem Mittelfinger deine Nasenspitze zu berühren. Erfolg: verteile {{sips}}, sonst trinke selbst."
   },
   {
     "category": "game",
