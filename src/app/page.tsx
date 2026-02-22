@@ -24,7 +24,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="max-w-lg mx-auto">
+    <main className="max-w-lg mx-auto min-h-dvh">
       <AnimatePresence mode="wait">
         {store.screen === "home" && (
           <HomeScreen

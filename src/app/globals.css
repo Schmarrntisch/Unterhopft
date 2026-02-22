@@ -40,6 +40,8 @@
     font-family: var(--font-body);
     -webkit-tap-highlight-color: transparent;
     overscroll-behavior: none;
+    background: var(--color-bg);
+    min-height: 100dvh;
   }
 
   body {
@@ -50,6 +52,9 @@
   }
 
   @media (prefers-color-scheme: dark) {
+    html {
+      background: var(--color-bg-dark);
+    }
     body {
       background: var(--color-bg-dark);
       color: var(--color-text-dark);
