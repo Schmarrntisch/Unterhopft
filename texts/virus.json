@@ -1,0 +1,132 @@
+[
+  {
+    "category": "virus",
+    "text_start": "{{player1}} ist ab jetzt der Diener. Er muss jeden Satz mit Eure Lordschaft beenden. Vergisst er es, muss er 1 Schluck trinken.",
+    "text_end": "Die Zeit als Diener ist vorbei. {{player1}} darf wieder normal sprechen."
+  },
+  {
+    "category": "virus",
+    "text_start": "{{player1}} darf keine Fragen mehr beantworten. Wenn er auf eine Frage antwortet, trinkt er 1 Schluck.",
+    "text_end": "{{player1}} darf wieder Fragen beantworten."
+  },
+  {
+    "category": "virus",
+    "text_start": "{{player1}} ist der DJ. Er darf nur noch singend antworten. Sonst: 1 Schluck.",
+    "text_end": "Die Musikbox ist aus. {{player1}} darf wieder normal sprechen."
+  },
+  {
+    "category": "virus",
+    "text_start": "Kontaktverbot: {{player1}} darf sein Handy nicht mehr berühren. Bei Verstoß: 1 Schluck.",
+    "text_end": "{{player1}} darf sein Handy wieder benutzen."
+  },
+  {
+    "category": "virus",
+    "text_start": "{{player1}} muss jedes Mal, wenn er trinkt, laut 'Prost, ihr Säcke!' rufen. Sonst: 1 Schluck.",
+    "text_end": "Die Trinkansage ist nicht mehr Pflicht für {{player1}}."
+  },
+  {
+    "category": "virus",
+    "text_start": "{{player1}} ist ab jetzt das Echo von {{player2}}. Er muss das letzte Wort jedes Satzes von {{player2}} laut wiederholen.",
+    "text_end": "Der Echo-Bot wurde deaktiviert. {{player1}} muss nichts mehr wiederholen."
+  },
+  {
+    "category": "virus",
+    "text_start": "{{player1}} darf niemanden mehr direkt anschauen beim Sprechen. Sonst: 1 Schluck.",
+    "text_end": "{{player1}} darf den anderen beim Reden wieder in die Augen schauen."
+  },
+  {
+    "category": "virus",
+    "text_start": "{{player1}} ist Bodyguard von {{player2}}. Muss {{player2}} trinken, übernimmt {{player1}} die Hälfte.",
+    "text_end": "Der Personenschutz für {{player2}} wurde eingestellt."
+  },
+  {
+    "category": "virus",
+    "text_start": "{{player1}} darf nur noch mit geschlossenen Augen sprechen. Bei Verstoß: 1 Schluck.",
+    "text_end": "{{player1}} darf die Augen beim Sprechen wieder öffnen."
+  },
+  {
+    "category": "virus",
+    "text_start": "{{player1}} muss nach jedem Satz Zwinker Smiley sagen und dabei zwinkern. Sonst: 1 Schluck.",
+    "text_end": "{{player1}} muss nach Sätzen nicht mehr zwinkern."
+  },
+  {
+    "category": "virus",
+    "text_start": "{{player1}} muss ab jetzt jeden Satz wie Meister Yoda formulieren. Sonst: 1 Schluck.",
+    "text_end": "Wie ein normaler Mensch {{player1}} wieder sprechen darf."
+  },
+  {
+    "category": "virus",
+    "text_start": "{{player1}} darf nicht mehr Ja oder Nein sagen. Fehler kostet 1 Schluck.",
+    "text_end": "{{player1}} darf die verbotenen Worte wieder nutzen."
+  },
+  {
+    "category": "virus",
+    "text_start": "{{player1}} ist der Papagei von {{player2}}. Wiederhole alles, was {{player2}} sagt, flüsternd nach.",
+    "text_end": "{{player1}} muss nicht mehr alles nachplappern."
+  },
+  {
+    "category": "virus",
+    "text_start": "{{player1}} spricht ab jetzt nur noch wie ein monotoner Roboter. Sonst: 1 Schluck.",
+    "text_end": "System-Update abgeschlossen. {{player1}} ist wieder ein Mensch."
+  },
+  {
+    "category": "virus",
+    "text_start": "{{player1}} ruft bei jedem Lachen eines Mitspielers Ha! Erwischt!. Sonst: 1 Schluck.",
+    "text_end": "{{player1}} muss andere nicht mehr beim Lachen stören."
+  },
+  {
+    "category": "virus",
+    "text_start": "{{player1}} beendet jeden Satz mit '...und das ist auch gut so!'. Sonst: 1 Schluck.",
+    "text_end": "{{player1}} darf Sätze wieder normal beenden."
+  },
+  {
+    "category": "virus",
+    "text_start": "{{player1}} betont jeden Satz wie eine Frage? Auch wenn es keine ist? Bei Verstoß: 1 Schluck.",
+    "text_end": "{{player1}} darf wieder Aussagesätze bilden."
+  },
+  {
+    "category": "virus",
+    "text_start": "{{player1}} muss vor jedem Satz einmal extrem tief ein- und wieder ausatmen. Sonst: 1 Schluck.",
+    "text_end": "{{player1}} darf wieder flach atmen."
+  },
+  {
+    "category": "virus",
+    "text_start": "{{player1}} ist der Kapitän. Begrüßung der Mitspieler nur mit Ahoi. Sonst: 1 Schluck.",
+    "text_end": "Der Kapitän geht von Bord. {{player1}} darf wieder normal sprechen."
+  },
+  {
+    "category": "virus",
+    "text_start": "{{player1}}, steh auf! Du darfst dich erst wieder hinsetzen, wenn dein aktuelles Getränk leer ist.",
+    "text_end": "{{player1}} darf sich wieder setzen."
+  },
+  {
+    "category": "virus",
+    "text_start": "{{player1}}, du bist ab jetzt ein Pirat. Halte ein Auge zu und starte jeden Satz mit Arrrgh!. Sonst: 1 Schluck.",
+    "text_end": "{{player1}} ist kein Pirat mehr. Beide Augen wieder auf."
+  },
+  {
+    "category": "virus",
+    "text_start": "Anglizismus-Zwang: {{player1}}, benutze in jedem Satz mindestens ein englisches Wort. Bei Fehler: 1 Schluck.",
+    "text_end": "{{player1}} darf wieder rein deutsch sprechen."
+  },
+  {
+    "category": "virus",
+    "text_start": "{{player1}}, wähle einen Trinkpartner. Ihr beide trinkt ab jetzt immer gemeinsam.",
+    "text_end": "Die Schicksalsgemeinschaft ist aufgelöst. {{player1}} trinkt wieder solo."
+  },
+  {
+    "category": "virus",
+    "text_start": "{{player1}} ist ab jetzt der Wetterfrosch. Sage nach jedem Satz, wie du die aktuelle Raumtemperatur findest.",
+    "text_end": "{{player1}} muss das Wetter im Raum nicht mehr kommentieren."
+  },
+  {
+    "category": "virus",
+    "text_start": "{{player1}} muss bei jedem Mal Trinken so tun, als wäre es das köstlichste Getränk der Welt (Ahhh, herrlich!).",
+    "text_end": "{{player1}} muss sein Getränk nicht mehr künstlich genießen."
+  },
+  {
+    "category": "virus",
+    "text_start": "{{player1}} muss jeden Satz mit einem Reim auf das letzte Wort des Satzes beenden. Sonst: 1 Schluck.",
+    "text_end": "{{player1}} darf wieder ohne Reime sprechen."
+  }
+]

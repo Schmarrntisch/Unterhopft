@@ -1,0 +1,35 @@
+/edit Build a mobile-first drinking game app "Schmarrntisch" using Next.js (App Router), Tailwind CSS, and Framer Motion. 
+
+1. DATA INGESTION:
+   - On startup, read all JSON files from the `/texts` directory. Each file represents a category.
+   - App must be dynamic: adding a new .json file to `/texts` should automatically include it in the game logic.
+
+2. GRAMMAR & PLACEHOLDERS:
+   - Replace {{sips}} with a number based on the Settings range. 1 = "1 Schluck", >1 = "X Schlücke".
+   - Replace {{player1}}, {{player2}}, {{player3}} with names from the player list.
+   - CRITICAL: For every new card, shuffle the player list so names are rotated.
+   - PERSISTENCE RULE: For 'virus', 'group_virus', and 'comparison', the names assigned to {{player1}} etc. at the START must remain identical for the corresponding END card or PART B, regardless of how many cards appear in between.
+
+3. CARD ENGINE LOGIC:
+   - Shuffle: Equal distribution across categories based on weights in Settings.
+   - Pair Handling (Comparisons): 'comparison.json' contains pairs that MUST be played back-to-back.
+   - Lifecycle Handling (Viruses): 'virus.json' and 'group_virus.json' use `text_start` and `text_end`. 
+     - The 'text_start' is played first. 
+     - The engine must manually schedule and inject the 'text_end' card exactly X rounds later (based on a random 3-8 round duration) with at least 5 cards distance.
+   - Active Virus Drawer: A UI element showing all active `text_start` rules and remaining rounds.
+
+4. PLAYER ENTRY & CONSTRAINTS:
+   - Static Min Players: 3. Block game start if <3 names. Show: "Ihr müsst mindestens zu dritt sein! Such dir ein paar Freunde!"
+   - Settings: Sliders for Min/Max sips (1-5), Game Length (50), and frequency weights for each .json file found in `/texts`.
+
+5. VISUALS & POLISH:
+   - Comic-Modern Look: Use a rounded font (Fredoka/Quicksand) and rounded corners (2xl).
+   - 8-Color System: Bright for Light, Saturated/Deep for Dark.
+   - Semantic Colors: 'virus' = Color 1, 'group_virus' = Color 2. Cycle Colors 3-8 for others. No immediate repeats except for cards of the same category.
+   - Assets: Home uses `assets/main_menu.png`; Game End uses `assets/game_ended.png`. Use `assets/logo.png` in the header.
+   - Transitions: Framer Motion "Swipe" effects and Haptic feedback on card change.
+
+6. TECHNICAL:
+   - PWA-ready. Dockerfile for ARM64 (Raspberry Pi). Listen on 0.0.0.0.
+
+Start by creating a robust DataProvider that loads the JSON files and a Shuffler that respects the Persistence Rule for special categories.

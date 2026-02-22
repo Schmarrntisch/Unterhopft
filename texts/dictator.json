@@ -1,0 +1,42 @@
+[
+  {
+    "category": "dictator",
+    "text": "{{player1}} darf eine Regel aufstellen, die ab jetzt für alle gilt."
+  },
+  {
+    "category": "dictator",
+    "text": "{{player1}} darf die Namen der Spieler vertauschen, die ab jetzt von allen verwendet werden müssen."
+  },
+  {
+    "category": "dictator",
+    "text": "{{player1}} ist der Wächter. Wer ab jetzt auf sein Handy schaut (außer dieses), bekommt von ihm {{sips}} zugeteilt."
+  },
+  {
+    "category": "dictator",
+    "text": "{{player1}} bestimmt einen Spieler, der das restliche Spiel nur noch rückwärts laufen darf."
+  },
+  {
+    "category": "dictator",
+    "text": "{{player1}} verbietet ein Wort. Wer es trotzdem sagt, trinkt {{sips}}."
+  },
+  {
+    "category": "dictator",
+    "text": "{{player1}} bestimmt eine Trink-Bedingung für alle. Zum Beispiel nur trinken, während man ein Auge zuhält. Bei vergessen muss 1 Schluck getrunken werden."
+  },
+  {
+    "category": "dictator",
+    "text": "{{player1}}, denke dir eine neue Regel und eine Strafe für den Bruch aus. Diese gilt ab jetzt für alle."
+  },
+  {
+    "category": "dictator",
+    "text": "{{player1}} darf etwas verbieten (zum Beispiel Arme verschränken). Wer es doch tut, trinkt {{sips}}."
+  },
+  {
+    "category": "dictator",
+    "text": "{{player1}} ist der Zeremonienmeister. Er bestimmt ein Ritual, das alle vor dem Trinken machen müssen."
+  },
+  {
+    "category": "dictator",
+    "text": "{{player1}} darf zwei Spieler bestimmen, die ab jetzt eine Trink-Gemeinschaft bilden: Trinkt einer, trinkt der andere mit."
+  }
+]

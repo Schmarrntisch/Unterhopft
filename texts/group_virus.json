@@ -1,0 +1,97 @@
+[
+  {
+    "category": "group_virus",
+    "text_start": "Der Boden ist Lava! Sobald jemand Lava sagt, müssen alle die Füße vom Boden heben. Der Letzte trinkt 1 Schluck.",
+    "text_end": "Der Boden ist nicht mehr Lava. Ihr dürft eure Füße wieder absetzen."
+  },
+  {
+    "category": "group_virus",
+    "text_start": "T-Rex-Modell: Alle müssen ihre Oberarme an den Körper pressen und dürfen nur die Unterarme bewegen. Wer es vergisst, trinkt 1 Schluck.",
+    "text_end": "Die Evolution schreitet voran. Ihr dürft eure Arme wieder normal benutzen."
+  },
+  {
+    "category": "group_virus",
+    "text_start": "Alle Namen sind verboten. Für jeden Bruch dieser Regel trinkt derjenige 1 Schluck.",
+    "text_end": "Namen dürfen wieder verwendet werden."
+  },
+  {
+    "category": "group_virus",
+    "text_start": "Sprecht von euch selbst nur noch in der dritten Person. Bei jedem Fehler 1 Schluck trinken.",
+    "text_end": "Ihr dürft wieder in der ersten Person von euch sprechen."
+  },
+  {
+    "category": "group_virus",
+    "text_start": "Wie Meister Yoda ihr nun sprechen müsst. Bei jedem Fehler 1 Schluck trinken.",
+    "text_end": "Der Fluch des Jedi ist vorbei. Normal sprechen ihr wieder dürft."
+  },
+  {
+    "category": "group_virus",
+    "text_start": "Die Falsche-Hand-Regel: Alle Rechtshänder trinken mit links, Linkshänder mit rechts. Bei Verstoß: 1 Schluck.",
+    "text_end": "Ihr dürft wieder eure gewohnte Hand zum Trinken benutzen."
+  },
+  {
+    "category": "group_virus",
+    "text_start": "Spitznamen-Zwang: Jeder braucht einen neuen Namen. Wer den echten Namen nutzt, trinkt 1 Schluck.",
+    "text_end": "Die Spitznamen-Pflicht ist vorbei. Ihr dürft wieder eure echten Namen nutzen."
+  },
+  {
+    "category": "group_virus",
+    "text_start": "Kein Lachen: Wer lacht, trinkt 1 Schluck. ",
+    "text_end": "Lachen ist wieder erlaubt."
+  },
+  {
+    "category": "group_virus",
+    "text_start": "Namenlos: Niemand darf Namen benutzen. Wer es tut, trinkt 1 Schluck.",
+    "text_end": "Die Namenssperre ist aufgehoben."
+  },
+  {
+    "category": "group_virus",
+    "text_start": "Alle tun so, als wären sie extrem betrunken. Wer normal wirkt, trinkt 1 Schluck.",
+    "text_end": "Ihr dürft euch wieder normal verhalten."
+  },
+  {
+    "category": "group_virus",
+    "text_start": "Zeitlupe: Alle reden nur noch in Slow-Motion.",
+    "text_end": "Die Zeit läuft wieder normal schnell."
+  },
+  {
+    "category": "group_virus",
+    "text_start": "Linke-Schulter: Redet nur noch über die linke Schulter mit euren Nachbarn.",
+    "text_end": "Ihr dürft euch wieder von allen Seiten ansprechen."
+  },
+  {
+    "category": "group_virus",
+    "text_start": "Anker-Regel: Glas nur mit beiden Händen gleichzeitig halten! Wer es mit einer Hand hebt, trinkt 1 Schluck.",
+    "text_end": "Die Anker sind gelichtet. Eine Hand reicht wieder zum Trinken."
+  },
+  {
+    "category": "group_virus",
+    "text_start": "Royalty: Vor jedem Schluck müsst ihr kurz feierlich in die Runde winken. Vergisst es jemand: 1 Schluck.",
+    "text_end": "Ihr seid wieder bürgerlich. Das Winken ist nicht mehr nötig."
+  },
+  {
+    "category": "group_virus",
+    "text_start": "Namenstausch: Jeder nimmt den Namen seines rechten Nachbarn an. Fehler kosten 1 Schluck.",
+    "text_end": "Ihr habt eure wahren Identitäten zurück."
+  },
+  {
+    "category": "group_virus",
+    "text_start": "Die Pinky-Regel: Beim Trinken muss der kleine Finger abgespreizt sein. Wer es vergisst: 1 Schluck.",
+    "text_end": "Der kleine Finger darf wieder ganz normal ans Glas."
+  },
+  {
+    "category": "group_virus",
+    "text_start": "Flüster-Runde: Alle dürfen nur noch flüstern. Wer normal spricht, trinkt 1 Schluck.",
+    "text_end": "Ihr dürft eure Stimmen wieder voll einsetzen."
+  },
+  {
+    "category": "group_virus",
+    "text_start": "Nur volle Namen erlaubt! Wer jemanden nicht mit Vor- und Nachnamen nennt, trinkt 1 Schluck.",
+    "text_end": "Spitznamen und Abkürzungen sind wieder erlaubt."
+  },
+  {
+    "category": "group_virus",
+    "text_start": "Dad-Noise: Wer trinken will, muss vorher laut seufzen",
+    "text_end": "Ihr müsst nicht mehr seufzen wenn ihr trinkt."
+  }
+]

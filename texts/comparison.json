@@ -1,0 +1,137 @@
+[
+  {
+    "category": "comparison",
+    "text1": "Wer von euch hat den besseren Musikgeschmack? {{player1}} oder {{player2}}? {{player3}} entscheidet jetzt.",
+    "text2": "Der Plattenbau-DJ muss {{sips}} trinken."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer ist der größere Overthinker? {{player1}} oder {{player2}}? {{player3}} wählt aus.",
+    "text2": "Kopf aus, Glas an: Das Gedankenkarussell muss zur Entspannung {{sips}} trinken."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer würde eine Zombie-Apokalypse länger überleben? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Der Zombiefraß muss {{sips}} trinken."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer ist der schlechtere Verlierer? {{player1}} oder {{player2}}? {{player3}} fällt das Urteil.",
+    "text2": "Nicht weinen: Die Heulsuse muss den Frust mit {{sips}} runterspülen."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer von euch ist schlagfertiger? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Widerrede zwecklos: Der Wortakrobat ist zu vorlaut und muss {{sips}} trinken."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer ist der größere Tollpatsch? {{player1}} oder {{player2}}? {{player3}} wählt aus.",
+    "text2": "Nicht fallenlassen: Der Tollpatsch trinkt {{sips}}."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wen würde {{player1}} auf eine einsame Insel mitnehmen? {{player2}} oder {{player3}}?",
+    "text2": "Urlaubsreif: Der Insel-Auserwählte muss {{sips}} trinken."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer kann mehr Bier trinken? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Direkter Beweis: Der Durstkönig muss sein Können mit {{sips}} unter Beweis stellen."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer von euch ist schlauer? {{player1}} oder {{player2}}? {{player3}} fällt das Urteil.",
+    "text2": "Zu viel Hirnschmalz: Der Professor muss zur Abkühlung {{sips}} trinken."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer von euch hat das schönere Hinterteil? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Knackig: Bootylicious muss {{sips}} trinken."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer ist der größere Pechvogel? {{player1}} oder {{player2}}? {{player3}} wählt aus.",
+    "text2": "Das Schicksal ist hart: Der Pechvogel muss {{sips}} trinken."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer hat die schlechteste Handschrift? {{player1}} oder {{player2}}? {{player3}} urteilt.",
+    "text2": "Der Herr Doktor muss zur Beruhigung der Finger {{sips}} trinken."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer von euch ist der bessere Tänzer? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Kein Rhythmus im Blut: Der Steifbock hat versagt und muss {{sips}} trinken."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer ist die größere Drama-Queen? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Vorhang auf für die große Show: Der Oscar-Anwärter muss {{sips}} trinken."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer hat den schlechteren Orientierungssinn? {{player1}} oder {{player2}}? {{player3}} wählt.",
+    "text2": "Wieder mal komplett verfahren: Das Navi-Opfer muss {{sips}} trinken."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer ist der größere Klugscheißer? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Der Klugscheißer muss {{sips}} trinken."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer ist der größere Serien-Junkie? {{player1}} oder {{player2}}? {{player3}} urteilt.",
+    "text2": "Der Binge-Watcher muss {{sips}} trinken."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer hat die peinlichere Playlist? {{player1}} oder {{player2}}? {{player3}} urteilt.",
+    "text2": "Die Person mit dem schlechten Geschmack muss {{sips}} trinken."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer ist der größere Verschwörungstheoretiker? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Der Aluhut muss {{sips}} trinken."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer ist schmerzempfindlicher? {{player1}} oder {{player2}}? {{player3}} urteilt.",
+    "text2": "Die Mimose hat verloren und muss zur Stärkung {{sips}} trinken."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer ist der größere Putzteufel? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Desinfektion von innen: Der Putzteufel muss {{sips}} trinken."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer hat die schlechteren Tischmanieren? {{player1}} oder {{player2}}? {{player3}} urteilt.",
+    "text2": "Der Oger muss sich mit {{sips}} benehmen lernen."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer ist der größere Technik-Noob? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Völlig überfordert mit der modernen Welt: Der Noob muss {{sips}} trinken."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer ist der größere Pflanzen-Mörder? {{player1}} oder {{player2}}? {{player3}} urteilt.",
+    "text2": "Der Pflanzenvernichter muss {{sips}} trinken."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer ist die größere Tratschtante? {{player1}} oder {{player2}}? {{player3}} wählt aus.",
+    "text2": "Das Lästermaul muss zum Schweigen {{sips}} trinken."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer ist der bessere Beifahrer? {{player1}} oder {{player2}}? {{player3}} urteilt.",
+    "text2": "Der Verlierer muss {{sips}} trinken."
+  },
+  {
+    "category": "comparison",
+    "text1": "Wer ist der größere Snack-Dieb? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Der Chipshamster muss {{sips}} trinken."
+  }
+]

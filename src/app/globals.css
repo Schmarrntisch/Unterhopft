@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  /* 8-Color System */
+  /* Light mode - Bright */
+  --color-c1: #FF6B6B;      /* Virus - coral red */
+  --color-c2: #A855F7;      /* Group Virus - purple */
+  --color-c3: #38BDF8;      /* Sky blue */
+  --color-c4: #34D399;      /* Emerald */
+  --color-c5: #FBBF24;      /* Amber */
+  --color-c6: #FB923C;      /* Orange */
+  --color-c7: #F472B6;      /* Pink */
+  --color-c8: #60A5FA;      /* Blue */
+
+  /* Dark mode - Saturated/Deep */
+  --color-c1-dark: #DC2626;
+  --color-c2-dark: #7C3AED;
+  --color-c3-dark: #0284C7;
+  --color-c4-dark: #059669;
+  --color-c5-dark: #D97706;
+  --color-c6-dark: #EA580C;
+  --color-c7-dark: #DB2777;
+  --color-c8-dark: #2563EB;
+
+  --color-bg: #FFF8F0;
+  --color-bg-dark: #1A1A2E;
+  --color-surface: #FFFFFF;
+  --color-surface-dark: #252547;
+  --color-text: #2D2D2D;
+  --color-text-dark: #F0F0F0;
+  --color-text-muted: #6B7280;
+  --color-text-muted-dark: #9CA3AF;
+
+  --font-display: "Fredoka", "Quicksand", sans-serif;
+  --font-body: "Quicksand", sans-serif;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-body);
+    -webkit-tap-highlight-color: transparent;
+    overscroll-behavior: none;
+  }
+
+  body {
+    background: var(--color-bg);
+    color: var(--color-text);
+    min-height: 100dvh;
+    overflow-x: hidden;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background: var(--color-bg-dark);
+      color: var(--color-text-dark);
+    }
+  }
+}

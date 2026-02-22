@@ -1,0 +1,644 @@
+[
+  {
+    "id": 1,
+    "category": "brands",
+    "text": "Nennt reihum Fashion-Brands. {{player1}} beginnt. Wer zuerst keine Brand mehr weiß oder eine wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 2,
+    "category": "brands",
+    "text": "Nennt reihum Netflix-Original-Serien. {{player1}} beginnt. Wer zuerst keine Serie mehr weiß oder eine wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 3,
+    "category": "brands",
+    "text": "Nennt reihum Automarken. {{player1}} beginnt. Wer zuerst keine Marke mehr weiß oder eine wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 4,
+    "category": "brands",
+    "text": "Nennt reihum Biersorten. {{player1}} beginnt. Wer zuerst keine Sorte mehr weiß oder eine wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 5,
+    "category": "brands",
+    "text": "Nennt reihum Hauptstädte in Europa. {{player1}} beginnt. Wer zuerst keine Stadt mehr weiß oder eine wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 6,
+    "category": "brands",
+    "text": "Nennt reihum Video-Streaming-Dienste. {{player1}} beginnt. Wer zuerst keinen Dienst mehr weiß oder einen wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 6,
+    "category": "brands",
+    "text": "Nennt reihum Video-Streaming-Dienste. {{player1}} beginnt. Wer zuerst keinen Dienst mehr weiß oder einen wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 8,
+    "category": "brands",
+    "text": "Nennt reihum Energy-Drink-Marken. {{player1}} beginnt. Wer zuerst keine Marke mehr weiß oder eine wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 9,
+    "category": "brands",
+    "text": "Nennt reihum Ketchup- oder Saucenmarken. {{player1}} beginnt. Wer zuerst keine Marke mehr weiß oder eine wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 10,
+    "category": "brands",
+    "text": "Nennt reihum Smartphone-Hersteller. {{player1}} beginnt. Wer zuerst keinen Hersteller mehr weiß oder einen wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 11,
+    "category": "brands",
+    "text": "Nennt reihum Kosmetikmarken. {{player1}} beginnt. Wer zuerst keine Marke mehr weiß oder eine wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 12,
+    "category": "brands",
+    "text": "Nennt reihum Eissorten. {{player1}} beginnt. Wer zuerst keine Sorte mehr weiß oder eine wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 13,
+    "category": "brands",
+    "text": "Nennt reihum Kryptowährungen. {{player1}} beginnt. Wer zuerst keine Währung mehr weiß oder eine wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 14,
+    "category": "brands",
+    "text": "Nennt reihum Luxuslabels. {{player1}} beginnt. Wer zuerst keine Marke mehr weiß oder eine wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 15,
+    "category": "brands",
+    "text": "Nennt reihum Videospiel-Entwickler. {{player1}} beginnt. Wer zuerst kein Studio mehr weiß oder eines wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 16,
+    "category": "brands",
+    "text": "Nennt reihum Beauty-Marken. {{player1}} beginnt. Wer zuerst keine Marke mehr weiß oder eine wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 17,
+    "category": "brands",
+    "text": "Nennt reihum schwedische Marken. {{player1}} beginnt. Wer zuerst keine Marke mehr weiß oder eine wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 18,
+    "category": "brands",
+    "text": "Nennt reihum Spirituosen-Marken. {{player1}} beginnt. Wer zuerst keine Marke mehr weiß oder eine wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 19,
+    "category": "brands",
+    "text": "Nennt reihum Zahnpasta-Marken. {{player1}} beginnt. Wer zuerst keine Marke mehr weiß oder eine wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 20,
+    "category": "brands",
+    "text": "Nennt reihum Supermarkt-Ketten. {{player1}} beginnt. Wer zuerst keine Kette mehr weiß oder eine wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 21,
+    "category": "brands",
+    "text": "Nennt reihum Musik-Streaming-Dienste. {{player1}} beginnt. Wer zuerst keinen Dienst mehr weiß oder einen wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 22,
+    "category": "brands",
+    "text": "Nennt reihum Jeans-Marken. {{player1}} beginnt. Wer zuerst keine Marke mehr weiß oder eine wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 23,
+    "category": "brands",
+    "text": "Nennt reihum Mineralwasser-Marken. {{player1}} beginnt. Wer zuerst keine Marke mehr weiß oder eine wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 24,
+    "category": "brands",
+    "text": "Nennt reihum Uhrenmarken. {{player1}} beginnt. Wer zuerst keine Marke mehr weiß oder eine wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 25,
+    "category": "brands",
+    "text": "Nennt reihum Waschmittel-Marken. {{player1}} beginnt. Wer zuerst keine Marke mehr weiß oder eine wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 26,
+    "category": "brands",
+    "text": "Nennt reihum Kaugummi-Marken. {{player1}} beginnt. Wer zuerst keine Marke mehr weiß oder eine wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 27,
+    "category": "brands",
+    "text": "Nennt reihum Schokoladen-Marken. {{player1}} beginnt. Wer zuerst keine Marke mehr weiß oder eine wiederholt, trinkt {{sips}}."
+  },
+  {
+    "id": 28,
+    "category": "comparison",
+    "text1": "Wer von euch hat den besseren Musikgeschmack? {{player1}} oder {{player2}}? {{player3}} entscheidet jetzt.",
+    "text2": "Die Entscheidung steht: Der Gewinner verteilt {{sips}}, der Verlierer trinkt selbst."
+  },
+  {
+    "id": 29,
+    "category": "comparison",
+    "text1": "Wer ist der größere Overthinker? {{player1}} oder {{player2}}? {{player3}} wählt aus.",
+    "text2": "Gedankenstopp: Die gewählte Person trinkt {{sips}} zur Beruhigung."
+  },
+  {
+    "id": 30,
+    "category": "comparison",
+    "text1": "Wer würde eine Zombie-Apokalypse länger überleben? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Überlebenskampf: Der Gewinner darf {{sips}} an den Zombiefraß (Verlierer) verteilen."
+  },
+  {
+    "id": 31,
+    "category": "comparison",
+    "text1": "Wer ist der schlechtere Verlierer? {{player1}} oder {{player2}}? {{player3}} fällt das Urteil.",
+    "text2": "Strafe für schlechte Verlierer: Trink {{sips}} und lächle dabei."
+  },
+  {
+    "id": 32,
+    "category": "comparison",
+    "text1": "Wer von euch ist schlagfertiger? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Mundtot: Die weniger schlagfertige Person trinkt {{sips}}."
+  },
+  {
+    "id": 33,
+    "category": "comparison",
+    "text1": "Wer ist der größere Tollpatsch? {{player1}} oder {{player2}}? {{player3}} wählt aus.",
+    "text2": "Vorsicht mit dem Glas: Der Tollpatsch trinkt {{sips}}."
+  },
+  {
+    "id": 34,
+    "category": "comparison",
+    "text1": "Wer ist schöner? {{player1}} oder {{player2}}? {{player3}} muss wählen.",
+    "text2": "Schönheits-Bonus: Die gewählte Person darf {{sips}} verteilen."
+  },
+  {
+    "id": 35,
+    "category": "comparison",
+    "text1": "Wen würde {{player1}} auf eine einsame Insel mitnehmen? {{player2}} oder {{player3}}?",
+    "text2": "Insel-Duo: Die gewählte Person darf {{sips}} verteilen."
+  },
+  {
+    "id": 36,
+    "category": "comparison",
+    "text1": "Wer von euch kann mehr Bier trinken? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Beweis es: Die gewählte Person darf {{sips}} verteilen."
+  },
+  {
+    "id": 37,
+    "category": "comparison",
+    "text1": "Wer von euch ist schlauer? {{player1}} oder {{player2}}? {{player3}} fällt das Urteil.",
+    "text2": "Intelligenz-Check: Der Gewinner darf {{sips}} verteilen."
+  },
+  {
+    "id": 38,
+    "category": "comparison",
+    "text1": "Wer von euch hat das schönere Hinterteil? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Prachtstück: Die gewählte Person darf {{sips}} verteilen."
+  },
+  {
+    "id": 39,
+    "category": "comparison",
+    "text1": "Wer ist der größere Pechvogel? {{player1}} oder {{player2}}? {{player3}} wählt aus.",
+    "text2": "Unglücksrabe: Der gewählte Pechvogel trinkt {{sips}}."
+  },
+  {
+    "id": 40,
+    "category": "comparison",
+    "text1": "Wer hat die schlechteste Handschrift? {{player1}} oder {{player2}}? {{player3}} urteilt.",
+    "text2": "Sauklaue: Die Person mit der schlechtesten Schrift trinkt {{sips}}."
+  },
+  {
+    "id": 41,
+    "category": "comparison",
+    "text1": "Wer von euch ist der bessere Tänzer? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Tanzmuffel: Der Verlierer muss 10 Sekunden tanzen oder {{sips}} trinken."
+  },
+  {
+    "id": 42,
+    "category": "comparison",
+    "text1": "Wer ist die größere Drama-Queen? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Keine Szene bitte: Die gewählte Person trinkt {{sips}}."
+  },
+  {
+    "id": 43,
+    "category": "comparison",
+    "text1": "Wer hat den schlechteren Orientierungssinn? {{player1}} oder {{player2}}? {{player3}} wählt.",
+    "text2": "Verlaufen: Die Person ohne Orientierung trinkt {{sips}}."
+  },
+  {
+    "id": 44,
+    "category": "comparison",
+    "text1": "Wer ist der größere Klugscheißer? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Besserwisser: Die gewählte Person trinkt {{sips}}."
+  },
+  {
+    "id": 45,
+    "category": "comparison",
+    "text1": "Wer ist der größere Serien-Junkie? {{player1}} oder {{player2}}? {{player3}} urteilt.",
+    "text2": "Binge-Watcher: Der Gewinner verteilt {{sips}}."
+  },
+  {
+    "id": 46,
+    "category": "comparison",
+    "text1": "Wer von euch ghostet öfter bei Dates? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Ghosting-Strafe: Der Ghoster trinkt {{sips}}."
+  },
+  {
+    "id": 47,
+    "category": "comparison",
+    "text1": "Wer hat die peinlichere Playlist? {{player1}} oder {{player2}}? {{player3}} urteilt.",
+    "text2": "Musikalischer Fehltritt: Die Person mit dem schlechten Geschmack trinkt {{sips}}."
+  },
+  {
+    "id": 48,
+    "category": "comparison",
+    "text1": "Wer ist der größere Verschwörungstheoretiker? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Aluhut-Modus: Die gewählte Person trinkt {{sips}} zur Erdung."
+  },
+  {
+    "id": 49,
+    "category": "comparison",
+    "text1": "Wer ist schmerzunempfindlicher? {{player1}} oder {{player2}}? {{player3}} urteilt.",
+    "text2": "Mimosen-Alarm: Der Verlierer trinkt {{sips}} als Medizin."
+  },
+  {
+    "id": 50,
+    "category": "comparison",
+    "text1": "Wer ist der größere Putzteufel? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Saubermann: Das Gegenteil darf {{sips}} an die unordentlichste Person verteilen."
+  },
+  {
+    "id": 51,
+    "category": "comparison",
+    "text1": "Wer hat die schlechteren Tischmanieren? {{player1}} oder {{player2}}? {{player3}} urteilt.",
+    "text2": "Benehmt euch: Die Person mit den schlechtesten Manieren trinkt {{sips}}."
+  },
+  {
+    "id": 52,
+    "category": "comparison",
+    "text1": "Wer ist der größere Technik-Noob? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Digital-Verweigerer: Der Noob trinkt {{sips}}."
+  },
+  {
+    "id": 53,
+    "category": "comparison",
+    "text1": "Wer ist der größere Pflanzen-Mörder? {{player1}} oder {{player2}}? {{player3}} urteilt.",
+    "text2": "Gärtner des Todes: Die gewählte Person trinkt {{sips}}."
+  },
+  {
+    "id": 54,
+    "category": "comparison",
+    "text1": "Wer von euch ist wetterfühliger? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Menschliches Barometer: Die gewählte Person darf {{sips}} verteilen."
+  },
+  {
+    "id": 55,
+    "category": "comparison",
+    "text1": "Wer ist die größere Tratschtante? {{player1}} oder {{player2}}? {{player3}} wählt aus.",
+    "text2": "Lästermaul: Die Tratschtante trinkt {{sips}}."
+  },
+  {
+    "id": 56,
+    "category": "comparison",
+    "text1": "Wer ist der bessere Beifahrer? {{player1}} oder {{player2}}? {{player3}} urteilt.",
+    "text2": "Orientierungs-Fail: Der schlechtere Beifahrer trinkt {{sips}}."
+  },
+  {
+    "id": 57,
+    "category": "comparison",
+    "text1": "Wer ist der größere Snack-Dieb? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Finger weg: Der Dieb trinkt {{sips}} und darf 10 Minuten keine Snacks essen."
+  },
+  {
+    "id": 58,
+    "category": "comparison",
+    "text1": "Wer hat das coolere Profilbild? {{player1}} oder {{player2}}? {{player3}} urteilt.",
+    "text2": "Unfotogen: Der Verlierer trinkt {{sips}}."
+  },
+  {
+    "id": 62,
+    "category": "comparison",
+    "text1": "Wer von euch ist schlagfertiger? {{player1}} oder {{player2}}? {{player3}} entscheidet.",
+    "text2": "Wortkarg: Die unterlegene Person trinkt {{sips}}."
+  },
+  {
+    "id": 63,
+    "category": "condition",
+    "text": "Alle Spieler, die aktuell einen Zopf tragen, trinken jetzt {{sips}}."
+  },
+  {
+    "id": 64,
+    "category": "condition",
+    "text": "Alle Brillenträger in der Runde trinken jetzt {{sips}}."
+  },
+  {
+    "id": 65,
+    "category": "condition",
+    "text": "Alle Fans des SV Darmstadt 98 trinken jetzt {{sips}}."
+  },
+  {
+    "id": 66,
+    "category": "condition",
+    "text": "Jeder, der schon mal alle Sons of Anarchy Staffeln gesehen hat, trinkt jetzt {{sips}}."
+  },
+  {
+    "id": 67,
+    "category": "condition",
+    "text": "Die kleinste Person in der Runde darf jetzt {{sips}} verteilen."
+  },
+  {
+    "id": 68,
+    "category": "democracy",
+    "text": "Stimmt ab: Was ist schlimmer? Ein Jahr ohne Sex oder ein Jahr ohne Smartphone? Die Minderheit trinkt {{sips}}."
+  },
+  {
+    "id": 69,
+    "category": "democracy",
+    "text": "Stimmt ab: Pizza mit Ananas – Geil oder Verbrechen? Die Minderheit trinkt {{sips}}."
+  },
+  {
+    "id": 70,
+    "category": "democracy",
+    "text": "Stimmt ab: 10 Jahre in die Zukunft oder 10 Jahre in die Vergangenheit reisen? Die Minderheit trinkt {{sips}}."
+  },
+  {
+    "id": 71,
+    "category": "democracy",
+    "text": "Stimmt ab: Nie wieder Kaffee oder nie wieder Alkohol? Die Minderheit trinkt {{sips}}."
+  },
+  {
+    "id": 72,
+    "category": "democracy",
+    "text": "Stimmt ab: Für immer Sommer (40°C) oder für immer Winter (-10°C)? Die Minderheit trinkt {{sips}}."
+  },
+  {
+    "id": 80,
+    "category": "democracy",
+    "text": "Stimmt ab: Star Wars oder Star Trek? Die Minderheit trinkt {{sips}}."
+  },
+  {
+    "id": 81,
+    "category": "democracy",
+    "text": "Stimmt ab: Frühstück lieber süß oder herzhaft? Die Minderheit trinkt {{sips}}."
+  },
+  {
+    "id": 83,
+    "category": "democracy",
+    "text": "Stimmt ab: Sprachnachrichten – Praktisch oder nervig? Die Minderheit trinkt {{sips}}."
+  },
+  {
+    "id": 89,
+    "category": "democracy",
+    "text": "Stimmt ab: Urlaub am Meer oder in den Bergen? Die Minderheit trinkt {{sips}}."
+  },
+  {
+    "id": 92,
+    "category": "dictator",
+    "text": "Diktator: {{player1}} stellt eine neue Regel auf, die ab jetzt für alle gilt."
+  },
+  {
+    "id": 93,
+    "category": "dictator",
+    "text": "Hofmarschall: {{player1}} bestimmt eine Person, die ab jetzt bei jedem 'Prost' eine kurze Rede halten muss."
+  },
+  {
+    "id": 94,
+    "category": "dictator",
+    "text": "Regelbrecher: {{player1}} darf eine aktive Regel entfernen oder für {{sips}} eine neue hinzufügen."
+  },
+  {
+    "id": 95,
+    "category": "dictator",
+    "text": "Handy-Wächter: {{player1}} passt auf. Wer aufs Handy schaut, kriegt von {{player1}} {{sips}}."
+  },
+  {
+    "id": 98,
+    "category": "dictator",
+    "text": "Trink-Meister: {{player1}} bestimmt eine Trink-Bedingung (z.B. ein Auge zuhalten), die ab jetzt gilt."
+  },
+  {
+    "id": 103,
+    "category": "game",
+    "text": "Mini-Spiel: Stein-Schere-Papier-Turnier! {{player1}} fordert alle nacheinander heraus. Jede Niederlage kostet {{player1}} {{sips}}."
+  },
+  {
+    "id": 104,
+    "category": "game",
+    "text": "Mini-Spiel: Wasserfall! {{player1}} fängt an zu trinken. Man darf erst aufhören, wenn die Person rechts von einem aufhört."
+  },
+  {
+    "id": 106,
+    "category": "game",
+    "text": "Rechnen: Sagt reihum die Primzahlen auf. {{player1}} fängt mit 1 an. Wer den ersten Fehler macht, trinkt {{sips}}."
+  },
+  {
+    "id": 107,
+    "category": "game",
+    "text": "Koordination: Klatscht reihum in alphabetischer Reihenfolge eurer Vornamen. Wer den ersten Fehler macht, trinkt {{sips}}."
+  },
+  {
+    "id": 111,
+    "category": "game",
+    "text": "{{player1}} wählt eine Zahl zwischen 1 und 6. Alle trinken diese Anzahl."
+  },
+  {
+    "id": 113,
+    "category": "game",
+    "text": "Mini-Spiel: Klopfspiel! 1x Klopfen = weiter, 2x Klopfen = Richtungswechsel. Der Verlierer trinkt {{sips}}."
+  },
+  {
+    "id": 118,
+    "category": "game",
+    "text": "Duell: Staring Contest! {{player1}} gegen einen Gegner. Der Erste, der blinzelt, muss {{sips}} trinken."
+  },
+  {
+    "id": 119,
+    "category": "game",
+    "text": "Duell: Lach-Duell! {{player1}} gegen einen Gegner. Der Erste, der lacht, verliert und trinkt {{sips}}."
+  },
+  {
+    "id": 120,
+    "category": "game",
+    "text": "Duell: Schnick-Schnack-Schnuck! {{player1}} gegen Gegner. Wer zuerst 3 Siege hat, gewinnt. Verlierer trinkt {{sips}}."
+  },
+  {
+    "id": 123,
+    "category": "game",
+    "text": "{{player1}} darf jetzt {{sips}} verteilen."
+  },
+  {
+    "id": 124,
+    "category": "game",
+    "text": "{{player1}} muss jetzt {{sips}} trinken."
+  },
+  {
+    "id": 130,
+    "category": "game",
+    "text": "Ich hab noch nie: {{player1}} nennt eine Sache. Alle, die es schon getan haben, trinken {{sips}}."
+  },
+  {
+    "id": 140,
+    "category": "game",
+    "text": "Flirten: {{player1}} versucht {{player2}} mit Anmachsprüchen zum Lachen zu bringen. Wenn {{player2}} lacht, trinkt er/sie {{sips}}, sonst {{player1}}."
+  },
+  {
+    "id": 146,
+    "category": "group_virus",
+    "text_start": "Ab jetzt gilt für alle: Der Boden ist Lava! Sobald jemand 'Lava' sagt, müssen alle die Füße hochnehmen. Der Letzte trinkt {{sips}}.",
+    "text_end": "Die Lava ist abgekühlt. Ihr müsst eure Füße nicht mehr hochnehmen.",
+    "rounds": 6
+  },
+  {
+    "id": 147,
+    "category": "group_virus",
+    "text_start": "Ab jetzt gilt für alle die T-Rex-Regel: Oberarme an den Körper pressen und nur die Unterarme bewegen. Wer es vergisst, trinkt {{sips}}.",
+    "text_end": "Die T-Rex-Zeit ist vorbei. Ihr dürft eure Arme wieder frei bewegen.",
+    "rounds": 5
+  },
+  {
+    "id": 149,
+    "category": "group_virus",
+    "text_start": "Ab jetzt gilt für alle: Das Wort 'Ich' darf nicht mehr benutzt werden. Wer es tut, trinkt {{sips}}.",
+    "text_end": "Die Ich-Sperre ist aufgehoben.",
+    "rounds": 6
+  },
+  {
+    "id": 151,
+    "category": "group_virus",
+    "text_start": "Ab jetzt gilt für alle: Sätze dürfen nur noch aus genau 3 Wörtern bestehen. Jeder Fehler kostet {{sips}}.",
+    "text_end": "Der Sprachfluch ist vorbei. Ihr dürft wieder normal lange Sätze bilden.",
+    "rounds": 6
+  },
+  {
+    "id": 152,
+    "category": "group_virus",
+    "text_start": "Ab jetzt gilt für alle: Namen sind verboten. Wer jemanden beim Namen nennt, trinkt {{sips}}.",
+    "text_end": "Die Namenssperre ist aufgehoben.",
+    "rounds": 5
+  },
+  {
+    "id": 155,
+    "category": "group_virus",
+    "text_start": "Ab jetzt gilt für alle: Alle Rechtshänder trinken mit links, Linkshänder mit rechts. Bei Verstoß: {{sips}}.",
+    "text_end": "Ihr dürft wieder eure gewohnte Hand zum Trinken benutzen.",
+    "rounds": 6
+  },
+  {
+    "id": 160,
+    "category": "group_virus",
+    "text_start": "Ab jetzt gilt für alle die Pinguin-Regel: Arme an die Hüften und beim Trinken Hände weg vom Glas!",
+    "text_end": "Die Pinguine dürfen ihre Flügel wieder normal benutzen.",
+    "rounds": 6
+  },
+  {
+    "id": 162,
+    "category": "group_virus",
+    "text_start": "Ab jetzt gilt für alle: Blickkontakt beim Trinken ist verboten! Wer erwischt wird, trinkt {{sips}}.",
+    "text_end": "Ihr dürft euch beim Trinken wieder in die Augen schauen.",
+    "rounds": 5
+  },
+  {
+    "id": 178,
+    "category": "most_likely",
+    "text": "Stimmt ab: Wer würde am ehesten eine ganze Nacht in einem IKEA verbringen? Der Gewinner trinkt {{sips}}."
+  },
+  {
+    "id": 182,
+    "category": "most_likely",
+    "text": "Stimmt ab: Wer hat das peinlichste Tattoo (oder würde sich eines stechen lassen)? Die Person trinkt {{sips}}."
+  },
+  {
+    "id": 196,
+    "category": "most_likely",
+    "text": "Stimmt ab: Wer hat die meisten Follower auf Social Media? Die Person darf {{sips}} verteilen."
+  },
+  {
+    "id": 210,
+    "category": "most_likely",
+    "text": "Stimmt ab: Wer ist heimlicher Schlager-Fan? Die Person trinkt {{sips}}."
+  },
+  {
+    "id": 211,
+    "category": "speed",
+    "text": "Schnelligkeit: Der Boden ist Lava! Wer zuletzt noch den Boden berührt, trinkt {{sips}}."
+  },
+  {
+    "id": 214,
+    "category": "speed",
+    "text": "Schnelligkeit: Wer als letztes einen ausgezogenen Schuh in der Hand hält, trinkt {{sips}}."
+  },
+  {
+    "id": 219,
+    "category": "speed",
+    "text": "Schnelligkeit: Irgendwann darf {{player1}} 'Penis' schreien. Der Letzte, der mitschreit, muss {{sips}} trinken."
+  },
+  {
+    "id": 221,
+    "category": "tonguetwister",
+    "text": "Zungenbrecher: {{player1}} sagt fehlerfrei: 'Klitzekleine Kinder können keinen Kirschkern knacken.' Sonst trinke {{sips}}."
+  },
+  {
+    "id": 223,
+    "category": "tonguetwister",
+    "text": "Zungenbrecher: {{player1}} sagt fehlerfrei: 'Konstantinopolitanischer Dudelsackpfeifersgeselle.' Sonst trinke {{sips}}."
+  },
+  {
+    "id": 225,
+    "category": "tonguetwister",
+    "text": "Zungenbrecher: {{player1}} sagt fehlerfrei: 'Im dichten Fichtendickicht picken flinke Finken tüchtig.' Sonst trinke {{sips}}."
+  },
+  {
+    "id": 226,
+    "category": "virus",
+    "text_start": "Ab jetzt gilt für {{player1}}: Du bist der 'Sir'. Du musst jeden Satz mit 'Eure Lordschaft' beenden. Fehler kosten {{sips}}.",
+    "text_end": "Die Zeit als 'Sir' ist vorbei. {{player1}} darf wieder normal sprechen.",
+    "rounds": 5
+  },
+  {
+    "id": 232,
+    "category": "virus",
+    "text_start": "Ab jetzt gilt für {{player1}}: Du bist der Echo-Bot. Du musst das letzte Wort jedes Satzes von {{player2}} wiederholen. Fehler kosten {{sips}}.",
+    "text_end": "Der Echo-Modus für {{player1}} ist beendet.",
+    "rounds": 5
+  },
+  {
+    "id": 237,
+    "category": "virus",
+    "text_start": "Ab jetzt gilt für {{player1}}: Du musst sprechen wie Meister Yoda. Fehler kosten {{sips}}.",
+    "text_end": "Der Yoda-Fluch ist vorbei. {{player1}} darf wieder normal sprechen.",
+    "rounds": 6
+  },
+  {
+    "id": 239,
+    "category": "virus",
+    "text_start": "Ab jetzt gilt für {{player1}}: Du darfst nicht 'Ja' oder 'Nein' sagen. Fehler kosten {{sips}}.",
+    "text_end": "{{player1}} darf wieder 'Ja' und 'Nein' sagen.",
+    "rounds": 6
+  },
+  {
+    "id": 248,
+    "category": "virus",
+    "text_start": "Ab jetzt gilt für {{player1}}: Du bist der Kapitän. Man darf dich nur mit 'Ahoi' ansprechen. Verstoß kostet {{sips}}.",
+    "text_end": "Der Kapitän geht von Bord. {{player1}} wird wieder bürgerlich.",
+    "rounds": 6
+  },
+  {
+    "id": 255,
+    "category": "virus",
+    "text_start": "Schicksal: {{player1}}, wähle einen Trinkpartner. Ihr trinkt ab jetzt immer gemeinsam.",
+    "text_end": "Das Schicksal ist gnädig. Ihr trinkt wieder solo.",
+    "rounds": 8
+  },
+  {
+    "id": 260,
+    "category": "virus",
+    "text_start": "Ab jetzt gilt für {{player1}}: Du musst jeden Satz mit einem Reim beenden. Fehler kosten {{sips}}.",
+    "text_end": "Der Reim-Zwang für {{player1}} ist vorbei.",
+    "rounds": 5
+  }
+]

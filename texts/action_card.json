@@ -1,0 +1,58 @@
+[
+  {
+    "category": "action_card",
+    "text": "{{player1}} bekommt die Fick-Dich-Karte. Zeige irgendwann jemandem den Mittelfinger, um seine nächsten Schlücke zu verdoppeln."
+  },
+  {
+    "category": "action_card",
+    "text": "Daumen-König! {{player1}} kann ab jetzt jederzeit den Daumen auf die Tischkante legen. Alle müssen folgen. Der Letzte trinkt {{sips}}."
+  },
+  {
+    "category": "action_card",
+    "text": "{{player1}} bekommt die Spiegel-Karte. Wenn du trinken musst, zeige auf jemanden. Dieser Spieler muss die gleiche Anzahl mittrinken."
+  },
+  {
+    "category": "action_card",
+    "text": "{{player1}} bekommt die Frage-Karte. Solange du diese Karte hast, darf dir niemand eine Frage beantworten. Wer es doch tut, trinkt {{sips}}."
+  },
+  {
+    "category": "action_card",
+    "text": "{{player1}} bekommt die Wikinger-Karte. Du darfst irgendwann anfangen zu rudern und alle müssen mitmachen. Wer es als letztes tut, trinkt {{sips}}."
+  },
+  {
+    "category": "action_card",
+    "text": "Der Boden ist Lava! Wer zuletzt noch den Boden berührt, trinkt {{sips}}."
+  },
+  {
+    "category": "action_card",
+    "text": "Wer zuletzt die Decke berührt, trinkt {{sips}}."
+  },
+  {
+    "category": "action_card",
+    "text": "Wer zuerst 5 Liegestütze macht, darf {{sips}} verteilen."
+  },
+  {
+    "category": "action_card",
+    "text": "Wer als Letzter einen ausgezogenen Schuh in der Hand hält, trinkt {{sips}}."
+  },
+  {
+    "category": "action_card",
+    "text": "Wer zuerst sein Glas austrinkt, darf {{sips}} verteilen."
+  },
+  {
+    "category": "action_card",
+    "text": "{{player1}} reibt sich irgendwann den Bauch. Wer als Letzter mitmacht und Mmmhhh sagt, trinkt {{sips}}."
+  },
+  {
+    "category": "action_card",
+    "text": "Thomas die Lokomotive! Sobald {{player1}} laut Tuut tuuut ruft, müssen alle Lokomotivbewegungen machen. Der Letzte trinkt {{sips}}."
+  },
+  {
+    "category": "action_card",
+    "text": "{{player1}} ruft irgendwann laut Backbord oder Steuerbord. Wer sich als Letzter in die richtige Richtung lehnt, trinkt {{sips}}."
+  },
+  {
+    "category": "action_card",
+    "text": "Wer zuerst eine Münze auf den Tisch legt, darf {{sips}} verteilen."
+  }
+]

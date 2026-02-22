@@ -1,0 +1,82 @@
+[
+  {
+    "category": "condition",
+    "text": "Jeder, der schwarze Socken trägt, trinkt {{sips}}."
+  },
+  {
+    "category": "condition",
+    "text": "Alle, die ein Android Smartphone nutzen, trinken {{sips}}."
+  },
+  {
+    "category": "condition",
+    "text": "Jeder, dessen Akku unter 60 Prozent ist, trinkt {{sips}}."
+  },
+  {
+    "category": "condition",
+    "text": "Alle, die heute schon Sport getrieben haben, dürfen {{sips}} verteilen."
+  },
+  {
+    "category": "condition",
+    "text": "Wer ein Tattoo hat, das man gerade nicht sieht, trinkt {{sips}}."
+  },
+  {
+    "category": "condition",
+    "text": "Jeder, der ein Hemd trägt, darf {{sips}} verteilen."
+  },
+  {
+    "category": "condition",
+    "text": "Alle, die noch bei ihren Eltern wohnen, trinken {{sips}}."
+  },
+  {
+    "category": "condition",
+    "text": "Wer im letzten Jahr im Ausland im Urlaub war, trinkt {{sips}}."
+  },
+  {
+    "category": "condition",
+    "text": "Jeder, der eine Armuhr trägt, darf {{sips}} verteilen."
+  },
+  {
+    "category": "condition",
+    "text": "Alle, die Single sind, trinken {{sips}} auf die Freiheit."
+  },
+  {
+    "category": "condition",
+    "text": "Wer Schuhe mit Schnürsenkeln trägt, trinkt {{sips}}."
+  },
+  {
+    "category": "condition",
+    "text": "Jeder, der heute schon auf Instagram war, trinkt {{sips}}."
+  },
+  {
+    "category": "condition",
+    "text": "Alle, die einen Bart tragen, trinken {{sips}}."
+  },
+  {
+    "category": "condition",
+    "text": "Wer ein Haustier besitzt, darf {{sips}} verteilen."
+  },
+  {
+    "category": "condition",
+    "text": "Jeder, der jünger ist als {{player1}}, trinkt {{sips}}."
+  },
+  {
+    "category": "condition",
+    "text": "Wer ein dunkles Oberteil trägt, trinkt {{sips}}."
+  },
+  {
+    "category": "condition",
+    "text": "Alle, die dieses Jahr schon im Kino waren, trinken {{sips}}."
+  },
+  {
+    "category": "condition",
+    "text": "Jeder, der ein Piercing hat, darf {{sips}} verteilen."
+  },
+  {
+    "category": "condition",
+    "text": "Wer heute später als 9 Uhr aufgestanden ist, trinkt {{sips}}."
+  },
+  {
+    "category": "condition",
+    "text": "Alle, die ein Auto besitzen, trinken {{sips}}."
+  }
+]

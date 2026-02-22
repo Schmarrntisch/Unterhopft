@@ -1,0 +1,66 @@
+[
+  {
+    "category": "game",
+    "text": "Stein-Schere-Papier-Turnier! {{player1}} fordert alle nacheinander heraus. Jeder Verlierer trinkt {{sips}}."
+  },
+  {
+    "category": "game",
+    "text": "Wasserfall! {{player1}} fängt an zu trinken. {{player1}} darf zuerst aufhören zu trinken. Alle anderen dürfen erst aufhören, wenn ihr rechter Nachbar aufgehört hat."
+  },
+  {
+    "category": "game",
+    "text": "Reim-Kette! {{player1}} sagt ein Wort, alle müssen reimen. Wer zu lange braucht oder wiederholt, trinkt {{sips}}."
+  },
+  {
+    "category": "game",
+    "text": "{{player1}}: Primzahlen aufsteigend nennen. Wer den ersten Fehler macht, trinkt {{sips}}."
+  },
+  {
+    "category": "game",
+    "text": "{{player1}}: In alphabetischer Reihenfolge der Vornamen klatscht ihr einmal in die Hände. Wer den Fehler macht, trinkt {{sips}}."
+  },
+  {
+    "category": "game",
+    "text": "Klopfspiel! 1x Klopfen ist weiter, 2x Klopfen ist Richtungswechsel. Der Verlierer trinkt {{sips}}."
+  },
+  {
+    "category": "game",
+    "text": "Unter dem Tisch Finger zeigen von 1 bis 10. Die niedrigste nur einmal gezeigte Zahl gewinnt und verteilt {{sips}}."
+  },
+  {
+    "category": "game",
+    "text": "Staring Contest! {{player1}} gegen einen Gegner. Der erste, der blinzelt, trinkt {{sips}}."
+  },
+  {
+    "category": "game",
+    "text": "Lach-Duell! {{player1}} gegen einen Gegner. Wer zuerst lacht, verliert und trinkt {{sips}}."
+  },
+  {
+    "category": "game",
+    "text": "Schnick-Schnack-Schnuck! {{player1}} gegen einen Gegner. Wer zuerst 3 Siege hat gewinnt. Der Verlierer trinkt {{sips}}."
+  },
+  {
+    "category": "game",
+    "text": "{{player1}}: Augen zu und versuche mit dem Mittelfinger deine Nasenspitze zu berühren. Erfolg: verteile {{sips}}, sonst trinke selbst."
+  },
+  {
+    "category": "game",
+    "text": "{{player1}} beschreibt einen Film ohne Titel oder Rollen zu nennen. Wer es in einer Minute errät, verteilt {{sips}}, sonst trinkst du."
+  },
+  {
+    "category": "game",
+    "text": "Zählen! Reihum wird gezählt. Jede Zahl, die durch 7 teilbar oder die eine 7 enthält, wird durch Bums ersetzt. Fehler kostet {{sips}}."
+  },
+  {
+    "category": "game",
+    "text": "Stille Post! {{player1}} flüstert {{player2}} einen Satz ein. Am Ende wird aufgelöst. Ist der Satz falsch, trinken alle {{sips}}."
+  },
+  {
+    "category": "game",
+    "text": "Ich hab noch nie! {{player1}} nennt eine Sache. Alle, die es schon getan haben, trinken {{sips}}."
+  },
+  {
+    "category": "game",
+    "text": "Story-Time! {{player1}} beginnt einen Satz, {{player2}} führt ihn fort. Wer die Geschichte abbricht oder nicht grammatikalisch korrekt weiterführt, trinkt {{sips}}."
+  }
+]
